@@ -1,0 +1,2 @@
+export const round2DecimalPoint = (value: number) => Math.round((value + Number.EPSILON) * 100) / 100;
+export const generateOrderNumber = () => (Math.floor(100000 + Math.random() * 900000).toString());
